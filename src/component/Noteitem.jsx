@@ -28,7 +28,7 @@ const Noteitem = (props) => {
     <h5 className="card-title d-flex" style={{overflow:"hidden"}}>{note.title} </h5>
     <i className="fa-solid fa-trash mx-3" onClick={deleteClick}></i>
     <i className="fa-solid fa-file-pen" onClick={edit2Click}></i>
-    <p className="card-text" >{note.description}Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries..</p>
+    <p className="card-text" >{note.description}</p>
   </div>
 </div>
     </div>
