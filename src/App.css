@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+}
+
+.infoContainer{
+padding:10%;
+color:#ffffff;
+font-size: xx-large;
+/* margin:10% 5% 0% 10%; */
+}
+
+
+
+.infoMain{
+  padding-top: 2%;
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+
