@@ -24,7 +24,7 @@ const Login = () => {
       console.log(localStorage.getItem("token"));
       navigate("/");
     }
-    else alert(json)
+    else alert(json.error)
   }
 
   const onChange = (e) => {
