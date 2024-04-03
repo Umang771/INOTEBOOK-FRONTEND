@@ -26,7 +26,7 @@ const SignUp = () => {
             }
             else {
                 console.log(json)
-                alert(json)
+                alert(json.error)
             }
         }
         else {
